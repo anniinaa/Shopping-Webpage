@@ -120,3 +120,19 @@ footer{
 .button:hover{
     background-color: rgb(231, 165, 154);
 }
+
+/* Filter */
+
+.filter{
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    margin: 1rem;
+    border-bottom: 0.1rem rgb(226, 216, 216) solid;
+}
+.filter div{
+    flex: 1;
+}
+select{
+    margin-left: 5px;
+}
